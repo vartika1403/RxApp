@@ -10,6 +10,8 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".dagger.DaggerActivity"></activity>
+        <activity android:name=".AddNoteActivity" />
         <activity
             android:name=".SelectImageActivity"
             android:label="@string/title_activity_select_image"
@@ -23,9 +25,7 @@
         <activity
             android:name=".BlurActivity"
             android:label="@string/title_activity_blur"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MainActivity" />
         <activity
             android:name=".WorkManagerClass"
@@ -34,7 +34,7 @@
         <activity
             android:name=".BasicActivity"
             android:label="@string/title_activity_basic"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".dagger.DaggerImplemtation" />
     </application>
 

@@ -21,6 +21,9 @@ public class Constants {
     static final String TAG_OUTPUT = "OUTPUT";
 
     public static final long DELAY_TIME_MILLIS = 3000;
+    public static final String TABLE_NAME_NOTE ="notes";
+    public static final String DB_NAME ="notesdb.db";
+
 
     // Ensures this class is never instantiated
     private Constants() {}

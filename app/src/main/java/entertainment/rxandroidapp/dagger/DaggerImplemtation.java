@@ -1,11 +1,11 @@
 package entertainment.rxandroidapp.dagger;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 
 import entertainment.rxandroidapp.R;
 
-public class DaggerImplemtation extends AppCompatActivity {
+public class DaggerImplemtation extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
