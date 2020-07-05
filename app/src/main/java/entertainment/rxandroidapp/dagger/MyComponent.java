@@ -8,5 +8,5 @@ import entertainment.rxandroidapp.MainActivity;
 @Singleton
 @Component(modules = {SharedPrefModule.class})
 public interface MyComponent {
-    void inject(MainActivity mainActivity);
+    void inject(DaggerActivity daggerActivity);
 }
